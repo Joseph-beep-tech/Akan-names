@@ -10,7 +10,7 @@ function findZinc() {
     var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var maleNames = ["Kwasi", "Kwadwo", "Kwaku", "Kwabena", "Yaw", "Kofi", "Kwame"];
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "AKua", "Yaa", "Afua", "Ama"];
-    if (year == "" || year.length < 4 || year.length > 4) {
+    if (year === "" || year.length < 4 || year.length > 4) {
         alert("Please enter a valid year!");
     } else if (month <= 0 || month > 12) {
         alert("Please enter a valid month!");
@@ -21,7 +21,6 @@ function findZinc() {
     } else if (male.checked == true) {
         result.innerHTML = "Congrats " + maleNames[myDay] + ". you were born on a " + days[myDay] + " and that's your Akan Name.";
     } else if (female.checked == true) {
-        result.innerHTML = "Hey " + femaleNames[myDay] + ". you were born on a " + days[myDay] + " and that's your Akan Name.";
-        alert("Please press ok to find out your Akan Name!")
-    }
+        result.innerHTML = "Congrats" + femaleNames[myDay] + ". you were born on a " + days[myDay] + " and that's your Akan Name.";
+    } 
 }
