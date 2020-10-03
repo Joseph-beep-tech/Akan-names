@@ -57,25 +57,26 @@
         </div>
         <div class="form-group">
           <label for="month">Month</label>
-          <input type="number" class="form-control" id="mon" value="" placeholder="month of birth">
+          <input type="number" class="form-control" id="mon" value="" placeholder="month of birth" required>
         </div>
         <div class="form-group">
             <label for="year">Year</label>
-            <input type="number" class="form-control" id="nam" value="" placeholder="year of birth">
+            <input type="number" class="form-control" id="nam" value="" placeholder="year of birth" required>
           </div>
           <p>Gender</p>
         <div class="form-group">
           <input type="radio" name="gender" id="male">male
           <input type="radio" name="gender" id="female">female
         </div>
-        <button type="submit" class="btn btn-primary" onclick="name();">Submit</button>
+        <input type="button" value="submit"class="btn btn-primary" onclick="findZinc();">
       </form>
-    </div>
-    <div class="col-md-6">
-    <p id="result"></p>
+      <div class="col-md-6">
+        <p id="result"></p>
+        </div>
+    
     </div>
 </div>
-<script src="./js/scripts.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 
 </html>

@@ -14,3 +14,7 @@ body {
   color: sienna;
   font-size: 20px;
 }
+#result{
+  color: red;
+  background: chartreuse;
+}
