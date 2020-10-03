@@ -7,7 +7,7 @@ function findZinc() {
     var male = document.getElementById("male");
     var female = document.getElementById("female");
     var result = document.getElementById("result");
-    var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var daysWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var maleNames = ["Kwasi", "Kwadwo", "Kwaku", "Kwabena", "Yaw", "Kofi", "Kwame"];
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "AKua", "Yaa", "Afua", "Ama"];
     if (year === "" || year.length < 4 || year.length > 4) {
@@ -19,8 +19,8 @@ function findZinc() {
     } else if (male.checked == false && female.checked == false) {
         alert("Please specify your gender!");
     } else if (male.checked == true) {
-        result.innerHTML = "Congrats " + maleNames[myDay] + ". you were born on a " + days[myDay] + " and that's your Akan Name.";
+        result.innerHTML = "Congrats " + maleNames[myDay] + ". you were born on a " + daysWeek[myDay] + " and that's your Akan Name.";
     } else if (female.checked == true) {
-        result.innerHTML = "Congrats" + femaleNames[myDay] + ". you were born on a " + days[myDay] + " and that's your Akan Name.";
+        result.innerHTML = "Congrats" + femaleNames[myDay] + ". you were born on a " + daysWeek[myDay] + " and that's your Akan Name.";
     } 
 }
