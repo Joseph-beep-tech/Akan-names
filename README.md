@@ -15,7 +15,7 @@
 {twitter@josephokoth1}
 {or make a call 0740024319 / 0788230347}
 ### Git Hub Live Link
-*click to view the Akan-names*
+*Akan-names*
  {https://joseph-beep-tech.github.io/Akan-names/}
  ## Technologies used
  {HTML for designing webpage}
