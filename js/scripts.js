@@ -21,6 +21,6 @@ function findZinc() {
     } else if (male.checked == true) {
         result.innerHTML = "Congrats " + maleNames[myDay] + ". you were born on a " + daysWeek[myDay] + " and that's your Akan Name.";
     } else if (female.checked == true) {
-        result.innerHTML = "Congrats" + femaleNames[myDay] + ". you were born on a " + daysWeek[myDay] + " and that's your Akan Name.";
+        result.innerHTML = "Congrats " + femaleNames[myDay] + ". you were born on a " + daysWeek[myDay] + " and that's your Akan Name.";
     }
 }
